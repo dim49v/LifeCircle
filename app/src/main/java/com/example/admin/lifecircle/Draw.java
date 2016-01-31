@@ -52,6 +52,8 @@ public class Draw extends SurfaceView implements SurfaceHolder.Callback{
                             if (centrelengh < drawThread.circle[i][0]+drawThread.circle[nomcir][0]){
                                 drawThread.circle[nomcir][0]= (int) Math.sqrt(Math.pow(drawThread.circle[i][0],2)+Math.pow(drawThread.circle[nomcir][0],2));
                                 drawThread.circle[i][0]=Color.BLACK;
+                                drawThread.circle[nomcir][1] = (drawThread.circle[nomcir][1]+drawThread.circle[i][1])/2;
+                                drawThread.circle[nomcir][2] = (drawThread.circle[nomcir][2]+drawThread.circle[i][2])/2;
                                 drawThread.circle[i][3]=0;
                                 drawThread.kol++;
                                 i=drawThread.n;

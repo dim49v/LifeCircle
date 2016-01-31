@@ -44,7 +44,6 @@ class DrawThread extends Thread{
     Canvas canvas = new Canvas();
     Paint paint = new Paint();
     final SecureRandom random = new SecureRandom();
-    int ct = 0;
     int i=0;
     int u=0;
     float x;

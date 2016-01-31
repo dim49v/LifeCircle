@@ -5,10 +5,6 @@ import android.graphics.Color;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-import android.util.Range;
-/**
- * Created by Admin on 17.01.2016.
- */
 
 public class Draw extends SurfaceView implements SurfaceHolder.Callback{
     int i, u, nomcir, dx, dy, centrelengh, kol=0;
